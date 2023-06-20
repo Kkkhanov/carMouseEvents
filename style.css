@@ -1,0 +1,72 @@
+.game{
+    display: flex;
+    align-items: flex-end;  
+}
+.track{
+    height: 2px;
+    
+    background-color: black;
+}
+.car{
+    background: url(https://cdn-icons-png.flaticon.com/512/3202/3202926.png);
+    width: 150px;
+    height: 100px;
+    background-size: 100%;
+}
+.carpet{
+    width: 200px;
+    height: 200px;
+    background-color: brown;
+    text-align: center;
+}
+.switch{
+    display: flex;
+    margin-top: 20px;
+}
+.fast, .slow{
+    width: 80px;
+    height: 30px;
+    border: 1px solid;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fast{
+    background-color: gray;
+    transition: .5s;
+}
+.slow{
+    background-color: gray;
+    transition: .5s;
+}
+.fast:hover{
+    background-color: red;
+}
+.slow:hover{
+    background-color: green;
+}
+.choise-color{
+    display: flex;
+}
+.choise-color div{
+    width: 50px;
+    height: 50px;
+    border: 1px solid;
+    transition: .5s;
+}
+#red{
+    background-color: red;
+}
+#green{
+    background-color: green;
+}
+#yellow{
+    background-color: yellow;
+}
+#blue{
+    background-color: blue;
+}
+.choise-color div:hover{
+    transform: scale(1.1);
+}
